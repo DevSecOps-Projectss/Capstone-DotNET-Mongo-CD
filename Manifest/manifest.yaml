@@ -26,7 +26,7 @@ spec:
         - name: dotnet-noteapp
           image: hamudevops/noteapp:v28
           ports:
-            - containerPort: 5053
+            - containerPort: 5050
           env:
             - name: DOTNET_ENVIRONMENT
               value: Development
@@ -41,6 +41,6 @@ spec:
     app: dotnet-noteapp
   ports:
     - port: 80
-      targetPort: 5053
+      targetPort: 5050
   type: ClusterIP
 
