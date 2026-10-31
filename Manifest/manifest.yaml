@@ -24,7 +24,7 @@ spec:
       serviceAccountName: noteapp-sa
       containers:
         - name: dotnet-noteapp
-          image: hamudevops/noteapp:v17
+          image: hamudevops/noteapp:v28
           ports:
             - containerPort: 5050
           env:
