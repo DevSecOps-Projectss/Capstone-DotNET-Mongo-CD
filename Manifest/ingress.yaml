@@ -32,6 +32,5 @@ spec:
                   number: 80
   tls:
     - hosts:
-        - www.thebison.online
-        - thebison.online
+        - app.thebison.online
       secretName: thebison-co-tls
