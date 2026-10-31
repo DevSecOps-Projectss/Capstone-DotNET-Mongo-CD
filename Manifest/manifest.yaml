@@ -26,7 +26,7 @@ spec:
         - name: dotnet-noteapp
           image: hamudevops/noteapp:v28
           ports:
-            - containerPort: 5050
+            - containerPort: 5053
           env:
             - name: DOTNET_ENVIRONMENT
               value: Development
