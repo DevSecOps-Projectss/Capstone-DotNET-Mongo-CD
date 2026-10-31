@@ -41,6 +41,6 @@ spec:
     app: dotnet-noteapp
   ports:
     - port: 80
-      targetPort: 5050
+      targetPort: 5053
   type: ClusterIP
 
