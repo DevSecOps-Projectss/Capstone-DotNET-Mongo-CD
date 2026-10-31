@@ -32,6 +32,6 @@ spec:
                   number: 80
   tls:
     - hosts:
-        - www.adityajaiswal.com
-        - adityajaiswal.com
-      secretName: adityajaiswal-co-tls
+        - www.thebison.online
+        - thebison.online
+      secretName: thebison-co-tls
